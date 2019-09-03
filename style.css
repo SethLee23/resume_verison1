@@ -32,10 +32,10 @@ header {
 
 
 header .avatar img {
-    width: 150px;
+    width: 140px;
     height: 150px;
     border-radius: 50%;
-object-fit:cover;
+    object-fit: cover;
 }
 
 header .title {
@@ -221,9 +221,11 @@ main .right .project {
     overflow: hidden;
     color: #666666;
 }
+
 .project {
     margin-top: 8px;
 }
+
 .project .title-wrapper {
     display: flex;
     align-items: center;
@@ -249,7 +251,8 @@ main .right .project {
     text-decoration: underline;
     word-wrap: break-word
 }
-.project p{
+
+.project p {
     line-height: 20px;
 }
 
@@ -259,21 +262,20 @@ main .right .project {
 }
 
 .project .imgs img {
-    width: 30%;
-    height: 30%;
+    width: 32%;
+    /* height: 30%; */
     border: 1px solid #cbcbd3;
 
 }
 
-.project .img {
-}
+.project .img {}
 
 .project .img img {
     width: 100%;
     border: 1px solid #cbcbd3;
 }
 
-.project .content-wrapper > img {
+.project .content-wrapper>img {
     border: 1px solid #cbcbd3;
     border-radius: 5px;
 
@@ -350,6 +352,7 @@ footer a {
     0% {
         opacity: 0
     }
+
     100% {
         opacity: 1
     }
@@ -373,20 +376,20 @@ strong {
     }
 }
 
-.download-button{
+.download-button {
     text-align: center;
     margin-left: 40px;
     border: 1px solid #cbcbd3;
     padding: 10px 1em;
-    color: #666 ;
+    color: #666;
     border-radius: 5px;
 }
 
-.download-button:hover{
+.download-button:hover {
     border: 1px solid #01afa6;
 
 }
 
-.online{
+.online {
     display: none;
 }
