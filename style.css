@@ -262,8 +262,8 @@ main .right .project {
 }
 
 .project .imgs img {
-    width: 32%;
-    /* height: 30%; */
+    width: 30%;
+    height: 30%;
     border: 1px solid #cbcbd3;
 
 }
