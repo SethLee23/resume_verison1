@@ -3,22 +3,18 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-
 }
 
 body {
     font-family: "Microsoft YaHei ";
 }
 
-
 .paper {
     margin: 0px auto;
     max-width: 1000px;
     box-shadow: -1px 1px 10px rgba(0, 0, 0, 0.5);
     overflow: hidden;
-
 }
-
 
 header {
     display: flex;
@@ -29,7 +25,6 @@ header {
     padding: 25px 0;
     color: #fdfdfd;
 }
-
 
 header .avatar img {
     width: 140px;
@@ -50,7 +45,6 @@ header .title h2 {
     color: #dddddd;
 }
 
-
 main {
     padding: 20px 0;
     display: flex;
@@ -62,7 +56,6 @@ main {
     main {
         flex-flow: wrap;
     }
-
 }
 
 main .left {
@@ -176,7 +169,6 @@ main .right {
     width: 70%;
     padding: 0 20px;
     margin: 0 auto;
-
 }
 
 @media screen and (max-width: 700px) {
@@ -184,7 +176,6 @@ main .right {
         width: 100vw;
     }
 }
-
 
 main .right .title-wrapper {
     display: flex;
@@ -216,7 +207,6 @@ main .right .project .title {
 }
 
 main .right .project {
-
     font-size: 14px;
     overflow: hidden;
     color: #666666;
@@ -265,7 +255,6 @@ main .right .project {
     width: 30%;
     height: 30%;
     border: 1px solid #cbcbd3;
-
 }
 
 .project .img {}
@@ -278,7 +267,6 @@ main .right .project {
 .project .content-wrapper>img {
     border: 1px solid #cbcbd3;
     border-radius: 5px;
-
 }
 
 .skillInfo .skill-content {
@@ -322,7 +310,6 @@ footer a {
     color: #aaaaaa;
 }
 
-
 .qrCode {
     position: fixed;
     min-width: 300px;
@@ -336,7 +323,6 @@ footer a {
 .qrCode img {
     width: 100%;
     border: 1px solid #cbcbd3;
-
 }
 
 .qrSwitch:hover {
@@ -352,7 +338,6 @@ footer a {
     0% {
         opacity: 0
     }
-
     100% {
         opacity: 1
     }
@@ -387,9 +372,29 @@ strong {
 
 .download-button:hover {
     border: 1px solid #01afa6;
-
 }
 
 .online {
     display: none;
+}
+
+.mg-lt40 {
+    /* font-weight: 800; */
+}
+
+.desc {
+    font-size: 14px;
+    color: #666;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.experience {
+    font-size: 14px;
+    color: #333;
+    margin-left: 40px;
+    margin-top: 10px;
+    line-height: 1.5;
 }

@@ -51,7 +51,7 @@
                         <dt>性别</dt>
                         <dd>：女</dd>
                         <dt>年龄</dt>
-                        <dd>：23</dd>
+                        <dd>：24</dd>
                         <dt>学历</dt>
                         <dd>：本科</dd>
                         <dt>英语</dt>
@@ -91,6 +91,12 @@
                         <div class="language">ES6</div>
                         <div class="bar">
                             <div class="progress" style="width: 60%"></div>
+                        </div>
+                    </div>
+                    <div class="language-wrapper">
+                        <div class="language">Cordova</div>
+                        <div class="bar">
+                            <div class="progress" style="width: 80%"></div>
                         </div>
                     </div>
                     <div class="language-wrapper">
@@ -155,9 +161,9 @@
                         <div class="line"></div>
                     </div>
                     <a href="李思情—前端.pdf" download="前端-李思情" class="download">
-                    <div class="download-button">
-                        点击下载PDF
-                    </div>
+                        <div class="download-button">
+                            点击下载PDF
+                        </div>
                     </a>
                     <a href="https://sethlee.info/" class="online">
                         <div class="download-button">
@@ -167,15 +173,144 @@
                 </section>
             </div>
             <div class="right">
+                <!-- 项目经验 -->
                 <section class="program">
                     <div class="title-wrapper">
                         <svg class="icon" aria-hidden="true">
                             <use xlink:href="#icon-project"></use>
                         </svg>
-                        <h3>项目经验</h3>
+                        <h3>工作经历</h3>
                         <div class="line"></div>
                     </div>
-
+                    <div class="desc">
+                        <div class="company">可待科技</div>
+                        <div class="mg-lt40">2019.08 - 2020.06</div>
+                    </div>
+                    <div class="experience">
+                        <p>负责pc端官网的开发与维护（vue）</p>
+                        <p>h5页面的开发，使用Cordova打包为IOS和Android APP</p>
+                        <p>微信小程序的创建与开发</p>
+                    </div>
+                    <!-- 碎书 -->
+                    <div class="project">
+                        <div class="title-wrapper">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-point"></use>
+                            </svg>
+                            <div class="title">碎书小程序</div>
+                        </div>
+                        <div class="content-wrapper">
+                            <p>
+                                <b>项目介绍：</b>
+                                搭建一个电子书摘分享发布与线下读书会报名交流的平台，旨在为书友搭建一个分享、交流、互动的小程序平台。每位书友可以发布自己的书摘、可以发起线下书友会、其它书友可在线查看、点赞、评论、分享，可以在线报名参加线下书友会，书友之间可以互动沟通，借书等活动。
+                            </p>
+                            <p>
+                                <b>项目实施：</b>该项目基于Vant组件库构建页面，实现了<strong>微信手机号登录授权</strong>，查看碎书/读书会列表，收取消息，查看他人主页，点赞，评论，分享书摘等功能，使用腾讯开源<strong>OMIX</strong>框架做全局状态管理，
+                                使用<strong>WebSocket</strong>以及心跳机制实现了<strong>即时通信</strong>，使用 <strong>RecorderManager和
+                                InnerAudioContext</strong>实现了录音和语音播放，开发了发送文字，发送语音，取消发送语音，播放语音，发送图片，发送表情包，新消息提醒等功能;
+                                基于<strong>腾讯OCR</strong>实现了文字识别，
+                                基于<strong>腾讯地图微信小程序JavaScript SDK</strong>实现了对用户进行定位，选择地址，逆地址解析，
+                                在项目中对接口以及请求进行了封装，进行<strong>模块化管理</strong>，封装了常用的工具函数，比如时间转换，将JSON转换为form表单等。
+                            </p>
+                            <p> <b>技术栈：</b>小程序/OMIX/OCR/WebSocket/腾讯地图
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 德益达 -->
+                    <div class="project">
+                        <div class="title-wrapper">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-point"></use>
+                            </svg>
+                            <div class="title">德益达美医疗直播（H5）</div>
+                        </div>
+                        <div class="content-wrapper">
+                            <p>
+                                <b>项目介绍：</b>
+                                搭建一个用户医疗培训的直播平台，用户可以查看直播，录播进行培训，对直播进行预约，在直播中进行聊天和提问。
+                            </p>
+                            <p>
+                                <b>项目实施：</b>
+                                我主要负责项目的一期，该项目基于Vant组件库构建页面， 使用
+                                Less 做 <strong>CSS 预处理</strong>。使用 Vue Router
+                                实现<strong>路由的跳转</strong>，使用<strong>vuex</strong>进行全局状态管理，使用<strong>axios</strong>拦截器进行请求，在项目中对拦截器进行了二次封装，对token进行处理，
+                                对请求 loading进行处理，
+                                处理了断网或者请求超时的情况，
+                                处理了响应不是以 2xx 开头的情况；项目中使用脚本对部分组件进行全局注册。
+                                实现了<strong>微信静默授权登录</strong>,游客登录，基于<strong>OBS</strong>进行推流，查看直播，录播视频及列表，使用<strong>
+                                    腾讯云超级播放器Web
+                                    进行直播和录播播放 </strong>,
+                                使用<strong>WebSocket</strong>以及心跳机制实现了<strong>即时通信</strong>;
+                                使用微信<strong>JS-SDK实现微信H5分享</strong>，对微信相关API及逻辑进行抽离封装。
+                                并实现了提问，预约等功能。
+                            </p>
+                            <p> <b>技术栈：</b>Vue/Vuex/Vue Router/WebSocket/微信JS-SDK/Less
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 亚德马  -->
+                    <div class="project">
+                        <div class="title-wrapper">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-point"></use>
+                            </svg>
+                            <div class="title">亚德马商城（APP）</div>
+                        </div>
+                        <div class="content-wrapper">
+                            <p>
+                                <b>项目介绍：</b>
+                                搭建一个综合型B2B2C电商平台APP系统。
+                            </p>
+                            <p>
+                                <b>项目实施：</b>
+                                该项目基于 Vue
+                                实现了一个<strong>多页面</strong>移动端商城，使用Cordova打包成Android，IOS混生APP，主要包括首页商品展示，店铺推荐，商品推荐，商品搜索，活动列表表，商品详情展示，商品规格选择，购物车，订单流程，地址管理等<strong>模块</strong>。实现了点击导航跳转页面、回到顶部、上拉加载、下拉更新、搜索商品、添加购物车、增减购物车商品、左滑删除商品、地址编辑、设置默认地址、地址级联选择器等<strong>功能</strong>。以
+                                <strong>Vue CLI</strong> 为基础创建项目模版，通过 <strong>Vue Router</strong>
+                                实现<strong>路由的跳转、重定向</strong>，使用
+                                <strong>Vuex</strong>
+                                实现全局状态的管理， 使用
+                                Less 做 <strong>CSS
+                                    预处理</strong>,使用<strong>Cordova</strong>插件实现<strong>微信登录，微信支付，支付宝支付</strong>的接入。接入<strong>腾讯TIM即时通信</strong>进行商家和用户间的交流。
+                            </p>
+                            <p> <b>技术栈：</b>Vue/Vuex/Vue Router/Less/Cordova/Vant
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 春饼叫号 -->
+                    <div class="project">
+                        <div class="title-wrapper">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-point"></use>
+                            </svg>
+                            <div class="title">春饼叫号（APP）</div>
+                        </div>
+                        <div class="content-wrapper">
+                            <p>
+                                <b>项目介绍：</b>
+                                餐饮电视叫号系统，对排号人员进行叫号。
+                            </p>
+                            <p>
+                                <b>项目实施：</b>
+                                该项目基于 Vue 实现了一个叫号排队系统，使用Cordova打包成Android，IOS混生APP，
+                                使用
+                                <strong>Cordova插件</strong>调起原生视频播放器，基于<strong>socket.io</strong>实现前后端通信，实现实时刷新当前叫号列表，上架（当贝）用加载页使用Vue
+                                <strong>插件</strong>进行封装，实现灵活调用，
+                                使用audio进行叫号播放。
+                            </p>
+                            <p> <b>技术栈：</b>Vue/Vuex/Vue Router/Less/Cordova/Vant
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <!-- 开源作品 -->
+                <section class="program">
+                    <div class="title-wrapper">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-project"></use>
+                        </svg>
+                        <h3>开源作品</h3>
+                        <div class="line"></div>
+                    </div>
                     <div class="project">
                         <div class="title-wrapper">
                             <svg class="icon" aria-hidden="true">
@@ -188,7 +323,7 @@
                                 <img src="./img/seed.jpg">
                             </div>
                             <p>
-                            项目介绍：该项目参考 Ant Design、Element UI 等UI框架，创建的一个基于Vue的<strong> UI
+                                项目介绍：该项目参考 Ant Design、Element UI 等UI框架，创建的一个基于Vue的<strong> UI
                                     组件库</strong>，使用 <strong>Less</strong> 作为 CSS 预处理器，目前提供的组件有
                                 button、input、icon、grid、layout、collapse、tab、
                                 popover、toast、upload，适合移动端和 PC 端使用，每个组件都严格遵守项目开发流程，从<strong>需求分析、UI
@@ -208,109 +343,6 @@
                             </p>
                         </div>
                     </div>
-
-                    <div class="project">
-                        <div class="title-wrapper">
-                            <svg class="icon" aria-hidden="true">
-                                <use xlink:href="#icon-point"></use>
-                            </svg>
-                            <div class="title">Vue 技术栈实现移动端商城</div>
-                        </div>
-                        <div class="content-wrapper">
-                            <div class="imgs">
-                                <img src="./img/mall_home.png" alt="">
-                                <img src="./img/good.png" alt="">
-                                <img src="./img/cart.png" alt="">
-                                
-                            </div>
-                            <p> 项目介绍：该项目基于 Vue
-                                实现了一个<strong>多页面</strong>移动端商城，主要包括首页商品展示，商品推荐，商品搜索，商品详情展示，购物车，订单流程，地址管理等<strong>模块</strong>。实现了点击导航跳转页面、回到顶部、上拉加载、下拉更新、搜索商品、添加购物车、增减购物车商品、左滑删除商品、地址编辑、设置默认地址、地址级联选择器等<strong>功能</strong>。以
-                            <strong>Vue CLI</strong> 为基础创建项目模版，通过 <strong>Vue Router</strong> 实现<strong>路由的跳转、重定向</strong>，使用
-                                <strong>Vuex</strong> 实现地址状态的管理，使用 <strong>Easy Mock</strong>
-                                伪造后台数据、使用 <strong>Axios</strong> 获取数据、并对接口、HTTP 请求、各模块的
-                                service 层进行<strong>封装</strong>。
-                            </p>
-                            <p> 技术栈：Vue2 / Vue CLI/ Vue Router/ Vuex/ Axios/ ES6/
-                                Easy Mock/
-                                qs/ Vant/ velocity-animate/ Swiper
-                            </p>
-                            <p> 预览链接：<a
-                                    href="https://sethlee23.github.io/resume_seth/assets/mall.jpg" target="_blank">扫描二维码预览</a></span>
-                                或 <span>
-                                    <a
-                                        href="https://sethlee23.github.io/mall/#/" target="_blank">点击查看</a>（使用手机打开网址或开发者工具选择手机模式）
-                                </span>
-                            </p>
-                            <p> 源码链接：<a href="https://github.com/SethLee23/mall" target="_blank">点击查看</a>
-                            </p>
-                            <p>项目文档：<a href="https://github.com/SethLee23/mall/blob/master/README.md" target="_blank">点击查看</a>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="project">
-                        <div class="title-wrapper">
-                            <svg class="icon" aria-hidden="true">
-                                <use xlink:href="#icon-point"></use>
-                            </svg>
-                            <div class="title"> 重布局 CNode 社区</div>
-                        </div>
-                        <div class="content-wrapper">
-                            <div class="imgs">
-                                <img src="./img/home.png" alt="">
-                                <img src="./img/article.png" alt="">
-                                <img src="./img/userInfo.png" alt="">
-                                
-                            </div>
-                            <p> 项目介绍：该项目基于 vue，对 CNode 社区<strong>样式进行重写</strong>，使用媒体查询，实现<strong>移动端适配，web
-                                    端页面响应式布局</strong>，使用<strong> font-spider</strong>
-                                对字体进行优化；
-                                基于官方提供的 api 实现 CNode 社区<strong> 主题、文章、个人信息，评论模块的预览，点击按钮跳转顶部</strong>，基于 Mint
-                                UI 的 <strong>Infinite scroll </strong>指令实现移动端页面<strong>下拉加载</strong>更多；
-                                基于 Vue Router，实现<strong>切换主题，页面间的跳转，</strong>基于 <strong>Swiper</strong>
-                                库轮播展示用户主题等多个功能。
-                            </p>
-                            <p> 技术栈：Vue2 / Vue CLI/ Vue Router/ Axios/ ES6/ Swiper/
-                                font-spider/ Npm Scripts/ Mint Ui
-                            </p>
-                            <p> 预览链接：<a href="https://sethlee23.github.io/re-cnode/#/" target="_blank">点击查看</a>
-                            </p>
-                            <p> 源码链接：<a href="https://github.com/SethLee23/re-cnode" target="_blank">点击查看</a>
-                            </p>
-                            <p> 项目文档：<a href="https://github.com/SethLee23/re-cnode/blob/master/README.md"
-                                    target="_blank">点击查看</a>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="project">
-                        <div class="title-wrapper">
-                            <svg class="icon" aria-hidden="true">
-                                <use xlink:href="#icon-point"></use>
-                            </svg>
-                            <div class="title">休憩小程序</div>
-                        </div>
-                        <div class="content-wrapper">
-                            <div class="imgs">
-                                <img src="./img/island_home.png" alt="">
-                                <img src="./img/book_detail.png" alt="">
-                                <img src="./img/user.png" alt="">
-                                
-                            </div>
-                            <p> 项目介绍：休憩是一个小程序项目，由wxml，wxss，js
-                                    原生开发，主要包括音乐期刊、电影期刊、美文期刊、图书推荐、图书搜索、图书详情展示、个人信息等模块。实现了<strong>音乐期刊播放、转发小程序、期刊内容
-                                        预览、推荐图书、搜索书籍、评论书籍、点击用户头像授权</strong>等功能，本项目基于<strong>组件化</strong>开发模式，封装了
-                                    12
-                                    个组件，使得代码复用性高，开发高效，便于维护。
-                            </p>
-                            </p>
-                            <p>预览链接：<a href="https://sethlee23.github.io/audio/20190904_124119.mp4" target="_blank">点击查看</a></p>
-                            <p> 源码链接：<a href="https://github.com/SethLee23/island" target="_blank">点击查看</a>
-                            <p> 项目文档：<a href="https://github.com/SethLee23/island/blob/master/README.md" target="_blank">点击查看</a>
-                            </p>
-                        </div>
-                    </div>
-
                     <div class="project">
                         <div class="title-wrapper">
                             <svg class="icon" aria-hidden="true">
@@ -321,51 +353,51 @@
                         <div class="content-wrapper">
                             <div class="img">
                                 <img src="./img/todo.jpg" alt="">
-                            </div>
-                            <p> 项目介绍：本项目基于 React、TypeScript
-                                实现<strong>登陆、注册、完成番茄统计、可视化图表展示番茄历史数据、任务历史数据，点击图表切换任务历史、番茄历史、添加打断记录</strong>等功能，引用
-                                <strong>Ant Design</strong> 作交互，使用
-                                Scss 做 <strong>CSS 预处理</strong>。使用 react-router-dom、history
-                                实现<strong>路由的跳转</strong>、使用
-                                axios 拦截器，localstorage实现<strong>登陆验证</strong>、使用
-                                react-redux、redux
-                                实现<strong>状态管理</strong>、使用Lodash 和 date-fns
+                                <p> 项目介绍：本项目基于 React、TypeScript
+                                    实现<strong>登陆、注册、完成番茄统计、可视化图表展示番茄历史数据、任务历史数据，点击图表切换任务历史、番茄历史、添加打断记录</strong>等功能，引用
+                                    <strong>Ant Design</strong> 作交互，使用
+                                    Scss 做 <strong>CSS 预处理</strong>。使用 react-router-dom、history
+                                    实现<strong>路由的跳转</strong>、使用
+                                    axios 拦截器，localstorage实现<strong>登陆验证</strong>、使用
+                                    react-redux、redux
+                                    实现<strong>状态管理</strong>、使用Lodash 和 date-fns
                                     等工具库实现日期的格式化,使用 <strong>TSLint</strong> 管理代码，基于 <strong>SVG</strong>
-                                实现统计数据可视化，最后使用 gh-pages 发布文件到 github 的 gh-page 分支。
-                            </p>
-                            <p> 预览链接：<a href="https://sethlee23.github.io/tomato-app/" target="_blank">点击查看</a>
-                            </p>
-                            <p> 源码链接：<a href="https://github.com/SethLee23/tomato-app/tree/todo"
-                                    target="_blank">点击查看</a>
-                            </p>
-                            <p> 项目文档：<a href="https://github.com/SethLee23/tomato-app/blob/todo/README.md"
-                                    target="_blank">点击查看</a>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="project">
-                        <div class="title-wrapper">
-                            <svg class="icon" aria-hidden="true">
-                                <use xlink:href="#icon-point"></use>
-                            </svg>
-                            <div class="title">Canvas在线画板</div>
-                        </div>
-                        <div class="content-wrapper">
-                            <div class="img">
-                                <img src="./img/canvas_1.jpg"alt="">
-
+                                    实现统计数据可视化，最后使用 gh-pages 发布文件到 github 的 gh-page 分支。
+                                </p>
+                                <p> 预览链接：<a href="https://sethlee23.github.io/tomato-app/" target="_blank">点击查看</a>
+                                </p>
+                                <p> 源码链接：<a href="https://github.com/SethLee23/tomato-app/tree/todo"
+                                        target="_blank">点击查看</a>
+                                </p>
+                                <p> 项目文档：<a href="https://github.com/SethLee23/tomato-app/blob/todo/README.md"
+                                        target="_blank">点击查看</a>
+                                </p>
                             </div>
-                            <p> 项目介绍：我的画板是我在学习 HTML5 的 Canvas API 时所做的项目，使用原生 JavaScript
-                                开发，实现了<strong>移动端、PC
-                                    端画图、调整画笔颜色、调整画笔粗细、撤回、橡皮擦、清空画布、画作下载</strong>等功能。
-                            </p>
-                            <p> 预览链接：<a href="https://sethlee23.github.io/canvas/canvas.html" target="_blank">点击查看</a>
-                            </p>
-                            <p> 源码链接：<a href="https://github.com/SethLee23/canvas" target="_blank">点击查看</a>
-                            </p>
                         </div>
-                    </div>
+
+                        <div class="project">
+                            <div class="title-wrapper">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-point"></use>
+                                </svg>
+                                <div class="title">Canvas在线画板</div>
+                            </div>
+                            <div class="content-wrapper">
+                                <div class="img">
+                                    <img src="./img/canvas_1.jpg" alt="">
+
+                                </div>
+                                <p> 项目介绍：我的画板是我在学习 HTML5 的 Canvas API 时所做的项目，使用原生 JavaScript
+                                    开发，实现了<strong>移动端、PC
+                                        端画图、调整画笔颜色、调整画笔粗细、撤回、橡皮擦、清空画布、画作下载</strong>等功能。
+                                </p>
+                                <p> 预览链接：<a href="https://sethlee23.github.io/canvas/canvas.html"
+                                        target="_blank">点击查看</a>
+                                </p>
+                                <p> 源码链接：<a href="https://github.com/SethLee23/canvas" target="_blank">点击查看</a>
+                                </p>
+                            </div>
+                        </div>
 
 
 
@@ -382,18 +414,18 @@
                     </div>
                     <div class="skill-content">
                         <p> 熟悉<strong>vue、vuex、Vue Router</strong>，熟悉
-                         <strong>element-ui、mint-ui</strong>等UI框架，熟悉<strong>MVVM</strong>原理，能够独立完成相关模块或插件的开发;
-                         理解如<strong>生命周期、组件、数据响应式</strong>等概念，能够使用 Vue 开发项目，对 <strong>React</strong> 有一定了解;</p>
+                            <strong>element-ui、mint-ui、vant</strong>等UI框架，熟悉<strong>MVVM</strong>原理，能够独立完成相关模块或插件的开发;
+                            理解如<strong>生命周期、组件、数据响应式</strong>等概念，能够使用 Vue 开发项目，对 <strong>React</strong> 有一定了解;</p>
                         <p>熟悉 JavaScript，熟悉其的重要知识点如：<strong>this、闭包、继承、dom 操作</strong>等;</p>
                         <p>熟悉 HTML 5 及<strong>语义化</strong>，了解 <strong>Canvas </strong>动画制作，掌握 CSS 3
-                         <strong>动画、过渡效果、掌握盒模型、弹性布局</strong>等常用技术;</li>
-                        <p>熟悉各种<strong>前端调试工具</strong>，比如 chrome 开发者工具，Postman， API 调试、HTTP 请求的工具;</p>
+                            <strong>动画、过渡效果、掌握盒模型、弹性布局</strong>等常用技术;</li>
+                        <p>熟悉各种<strong>前端调试工具</strong>，比如 Chrome 开发者工具，Postman，Fiddler， API 调试、HTTP 请求的工具;</p>
                         <p>使用 <strong></strong>git 进行代码管理、<strong></strong>yarn、npm
-                         进行包管理、了解常用的<strong></strong>命令行，使用命令行构建项目;</li>
+                            进行包管理、了解常用的<strong></strong>命令行，使用命令行构建项目;</li>
                         <p>了解<strong> HTTP </strong>相关知识，了解常见的<strong> Web 性能优化</strong>方案;</p>
                         <p>能够<strong>高保真</strong>还原设计稿,有良好的代码风格，通过添加注释、封装函数提高代码可读性，注重代码质量;
-                        <p>有<strong>小程序</strong>开发经验，能够简单封装小程序请求模块;有移动端开发经验，会使用<strong>REM、vw/ vh、响应式、媒体查询
-                         </strong>等技术制作适配手机设备的页面;</p>
+                        <p>有<strong>小程序</strong>开发经验，能够简单封装小程序请求模块;有移动端开发经验，会使用<strong>rem、vw/ vh、响应式、媒体查询
+                            </strong>等技术制作适配手机设备的页面;</p>
                         <p>
                         </p>
 
@@ -425,10 +457,12 @@
                         <div class="line"></div>
                     </div>
                     <div class="aboutMe-content">
-                        <p>本人于 2017 年毕业，毕业后从事了专业相关工作，并做了一段时间销售，出于自身职业考虑以及兴趣爱好，于是选择前端开发。</p>
-                        <p>通过从事相关行业朋友和家人的指导，利用书籍、在线课程、官方文档、博客学习前端知识。</p>
-                        <p>学习过程中遇到问题，会使用 Google、stack overflow，查看官方文档或者 issue 的方式解决问题。</p>
-                        <p>平时通过开发各种轻项目来加深相关知识的理解，今后打算从事前端开发工作。</p>
+                        <p>一年前端开发经验，深入理解Web前端开发技术，
+                            开发过程中遇到问题，会使用 Google、stack overflow，查看官方文档或者 issue 的方式解决问题。</p>
+                        <p>熟练使用Vue框架与小程序，熟悉交互设计理论，能够将优秀的交互设计落地到产品中，能够独立完成一个项目或一个模块的开发工作，对开发充满激情，源于去尝试新技术，抗压能力强，有比较强的自驱能力，追求效率与美
+                            。</p>
+
+
                     </div>
 
                 </section>
