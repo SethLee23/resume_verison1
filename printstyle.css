@@ -385,3 +385,20 @@ strong {
 .project {
     margin-top: 8px;
 }
+
+.desc {
+    font-size: 14px;
+    color: #666;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.experience {
+    font-size: 14px;
+    color: #333;
+    margin-left: 40px;
+    margin-top: 10px;
+    line-height: 1.5;
+}
